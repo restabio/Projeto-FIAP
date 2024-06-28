@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 2rem; /* Aumentar o tamanho do texto */
+    white-space: nowrap; /* Garantir que o texto fique em uma linha */
+}
+
+.social-login button img {
+    width: 40px; /* Ajuste este valor conforme necessário */
+    height: 40px; /* Ajuste este valor conforme necessário */
+  }
+
+.social-login button img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
+
+/* Custom styles to remove button background */
+.google-btn, .facebook-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.google-btn:hover, .facebook-btn:hover {
+    background: none;
+}
+
+.google-btn img, .facebook-btn img {
+    display: block;
+    margin: auto;
+}
